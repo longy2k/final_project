@@ -3,7 +3,7 @@ CS188 Final Project (BMO)
 
 Commands:  
 
-/g "Text"__________________# Searches Google                   <br/>
+/g "Text"    _    # Searches Google                   <br/>
 /ddg "Text"                         # Searches DuckDuckGo               <br/>
 /a "Text"                           # Searches Amazon                   <br/>
 /yt "Text"                          # Searches Youtube                  <br/>
