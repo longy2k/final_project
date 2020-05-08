@@ -1,0 +1,16 @@
+https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
+https://www.w3schools.com/jsref/jsref_startswith.asp
+https://www.w3schools.com/jsref/jsref_substring.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_html_clear_input
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch
+https://stackoverflow.com/questions/4564414/delete-first-character-of-a-string-in-javascript
+https://medium.com/swlh/a-simple-javascript-weather-application-and-json-parsing-abd21ff0ea9a
+https://stackoverflow.com/questions/49935602/for-loop-api-get-weather-descriptions
+https://adventuretime.fandom.com/wiki/Be_More
+https://www.w3schools.com/jsref/jsref_tofixed.asp
+https://newsapi.org/docs/get-started
+https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+https://www.geeksforgeeks.org/how-to-create-a-link-in-javascript/
+https://css-tricks.com/css-basics-styling-links-like-boss/
+https://getbootstrap.com/docs/4.0/content/images/
+https://getbootstrap.com/docs/4.4/content/typography/

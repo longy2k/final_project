@@ -1,0 +1,91 @@
+body {
+	background-color: #6fb6a7;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+img {
+  filter: sepia(220%) saturate(100%) brightness(70%) hue-rotate(110deg);
+}
+
+.block {
+	text-align: center;
+	height: 200px;
+  width: 400px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -200px;
+}
+
+.ham {
+	text-align: center;
+	height: 200px;
+	width: 400px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	margin-top: 20px;
+	margin-left: -200px;
+}
+
+.logo{
+	font-size: 100px;
+	font-family: 'Luckiest Guy', cursive;
+}
+
+.logo a {
+	text-decoration: none;
+	outline: none;
+}
+
+.card-body img {
+	float: left;
+	margin: 0px 10px -5px 0px;
+}
+
+.card-body h2 {
+	float: left;
+}
+
+.card-body p {
+	line-height: 20px;
+	text-align: left;
+	font-weight: normal;
+	margin-top: -5px;
+}
+
+#search {
+	width: 100%;
+}
+
+#screen {
+	font-family: 'Dhurjati', sans-serif;
+	font-size: 1.5rem;
+	font-weight: bold;
+	background-color: #bfdfb2;
+	border-color: black;
+	margin-top: 2rem;
+	width: 25rem;
+	height: 400px;
+	overflow: auto;
+	scrollbar-width: thin;
+	scrollbar-color: #96c3a3 #d4f3c7;
+}
+
+#news {
+	font-size: 1.2rem;
+}
+
+#barcode {
+	font-family: 'Libre Barcode 39', cursive;
+	font-size: 1.8rem;
+}
