@@ -9,9 +9,9 @@ searchBar.addEventListener("keyup", function(event) {
     	// Cancel the default action, if needed
     	event.preventDefault();
 
-    	// Navigation keys
+    	// Navigation search keys
 	    switch (sc[0].substring(1)) {
-			// Bmo Nav
+			// Bmo main navigation
 			case 'home':
 				if (!v.includes(" ")) {
 					window.open("index.html", "_self");
@@ -23,10 +23,10 @@ searchBar.addEventListener("keyup", function(event) {
 				}
 				break;
 			case 'profile':
-			if (!v.includes(" ")) {
-				window.open("profile.html", "_self");
-			}
-			break;
+				if (!v.includes(" ")) {
+					window.open("profile.html", "_self");
+				}
+				break;
 
 			// Links
 			case 'a':
@@ -55,16 +55,16 @@ searchBar.addEventListener("keyup", function(event) {
 					window.open("weather.html", "_self");
 				}
 				break;
-	  	default:
+	  	default: // Default search via Google
 	  		window.open("https://www.google.com/search?sxsrf=ALeKk01Aka1yQyBjhoDDRHzKqIvtMgT6zQ%3A1588724832928&source=hp&ei=YASyXr_zNdGF9PwPt-WxsA4&q=" + sc[0], "_self");
 		}
 	}
 });
 
 function weather() {
-	var link = "https://api.openweathermap.org/data/2.5/weather?q=" + sessionStorage.getItem("city") + "&units=metric&apikey=c44ed3a1061544ff65ee8eb061b2e27c";
+	var url = "https://api.openweathermap.org/data/2.5/weather?q=" + sessionStorage.getItem("city") + "&units=metric&apikey=c44ed3a1061544ff65ee8eb061b2e27c";
 	var request = new XMLHttpRequest();
-	request.open('GET',link,true);
+	request.open('GET', url, true);
 	request.onload = function(){
 		var obj = JSON.parse(this.response);
 		if (request.status >= 200 && request.status < 400) {

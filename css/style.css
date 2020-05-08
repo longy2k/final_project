@@ -5,6 +5,7 @@ body {
 a {
 	color: black;
 	text-decoration: none;
+	outline: none;
 }
 
 a:hover {
@@ -15,7 +16,7 @@ img {
   filter: sepia(220%) saturate(100%) brightness(70%) hue-rotate(110deg);
 }
 
-.block {
+.mainLogo {
 	text-align: center;
 	height: 200px;
   width: 400px;
@@ -26,7 +27,7 @@ img {
   margin-left: -200px;
 }
 
-.ham {
+.logoSearch {
 	text-align: center;
 	height: 200px;
 	width: 400px;
@@ -47,22 +48,6 @@ img {
 	outline: none;
 }
 
-.card-body img {
-	float: left;
-	margin: 0px 10px -5px 0px;
-}
-
-.card-body h2 {
-	float: left;
-}
-
-.card-body p {
-	line-height: 20px;
-	text-align: left;
-	font-weight: normal;
-	margin-top: -5px;
-}
-
 #search {
 	width: 100%;
 }
@@ -79,6 +64,23 @@ img {
 	overflow: auto;
 	scrollbar-width: thin;
 	scrollbar-color: #96c3a3 #d4f3c7;
+}
+
+#profile img {
+	float: left;
+	margin: 0px 10px -5px 0px;
+}
+
+#profile h2 {
+	float: left;
+	margin-bottom: -5px;
+}
+
+#profile p {
+	line-height: 20px;
+	text-align: left;
+	font-weight: normal;
+	margin-top: -5px;
 }
 
 #news {
