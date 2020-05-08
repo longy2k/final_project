@@ -4,11 +4,11 @@ CS188 Final Project (BMO)
 <pre>
 Commands:  
 
-/g "Text"                           # Searches Google                   <br/>
-/ddg "Text"                         # Searches DuckDuckGo               <br/>
-/a "Text"                           # Searches Amazon                   <br/>
-/yt "Text"                          # Searches Youtube                  <br/>
-/sof "Text"                         # Searches StackOverFlow            <br/>
+/g "Text"                           # Searches Google                   
+/ddg "Text"                         # Searches DuckDuckGo               
+/a "Text"                           # Searches Amazon                   
+/yt "Text"                          # Searches Youtube                  
+/sof "Text"                         # Searches StackOverFlow            
 ...  
   
 /weather [City] or [City],[State]   # Check current weather by city     
