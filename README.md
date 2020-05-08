@@ -1,11 +1,11 @@
 # final_project
 CS188 Final Project (BMO)
 
-Commands:
+Commands:  
 
-/g "Text"                           # Searches Google
-/ddg "Text"                         # Searches DuckDuckGo
-/a "Text"                           # Searches Amazon
+/g "Text"                           # Searches Google                   <br/>
+/ddg "Text"                         # Searches DuckDuckGo               <br/>
+/a "Text"                           # Searches Amazon                   <br/>
 /yt "Text"                          # Searches Youtube
 /sof "Text"                         # Searches StackOverFlow
 ...
