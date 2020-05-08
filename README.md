@@ -11,8 +11,8 @@ Commands:
 /sof "Text"                         # Searches StackOverFlow            <br/>
 ...  
   
-/weather [City] or [City],[State]   # Check current weather by city     <br/>
-/news                               # Top news from multiple sources    <br/>
+/weather [City] or [City],[State]   # Check current weather by city     
+/news                               # Top news from multiple sources    
   
-/profile                            # My profile page                   <br/>
+/profile                            # My profile page                   
 </pre>
