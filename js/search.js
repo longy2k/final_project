@@ -22,9 +22,9 @@ searchBar.addEventListener("keyup", function(event) {
 					window.open("news.html", "_self");
 				}
 				break;
-			case 'profile':
+			case 'about':
 				if (!v.includes(" ")) {
-					window.open("profile.html", "_self");
+					window.open("about.html", "_self");
 				}
 				break;
 
